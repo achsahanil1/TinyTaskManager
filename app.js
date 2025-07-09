@@ -18,7 +18,7 @@ taskForm.addEventListener("submit",function (event){
         //create a new Task iTEM
         const taskItem = document.createElement("li");
         taskItem.classList.add("task-item");
-        taskItem.textContent = `${taskIndex}) ${taskText}`;
+        taskItem.textContent = `${taskText}`;
 
 
         taskItem.addEventListener("click", function(){
